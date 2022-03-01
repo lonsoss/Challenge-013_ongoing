@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(Fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Bogart-Medium';
+    src: url(Fonts/bogart/Bogart-Medium-trial.ttf);
+}
+@font-face {
+    font-family: 'EREVAN';
+    src: url(Fonts/EREVAN/EREVAN.TTF);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(challange_images/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px 0;
+}
+
+header nav img{
+    height: 35px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 500px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+header nav ul li:not(li:last-child){
+    font-family: 'Roboto-Medium';
+}
+
+header nav ul li:last-child{
+    font-family: 'Bogart-Medium';
+}
+
+header nav ul li:last-child a{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+header h1{
+    font-family: 'EREVAN';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    letter-spacing: 8px;
+    margin-top: 120px;
+}
+
+
+main{
+    width: 100%;
+    border: solid 1px;
+}
+
